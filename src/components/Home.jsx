@@ -41,9 +41,9 @@ function Home() {
 
     const Projects = [
         { Name: "E-Commerce Website", Link: "https://online-shopping-e.vercel.app/", Description: "Functional E-Commerce Website", imgSrc: ECommerce },
-        { Name: "You Tube Clone", Link: "http://postifyyy.freewebhostmost.com/", Description: "Fully functional clone of youTube", imgSrc: youtube },
+        { Name: "You Tube Clone", Link: "https://you-tube-clone-nine-phi.vercel.app/", Description: "Fully functional clone of youTube", imgSrc: youtube },
         { Name: "Weather App", Link: "https://harsh-bisla.github.io/Weather-App/", Description: "Provides Real Time Weather", imgSrc: Weather },
-        { Name: "Appointment Booking Website", Link: "https://harsh-bisla.github.io/TextUtils/", Description: "Book Appointments with doctors", imgSrc: Appointment }
+        { Name: "Appointment Booking Website", Link: "https://appointment-booking-system-online.vercel.app/", Description: "Book Appointments with doctors", imgSrc: Appointment }
     ];
 
     const [ref, inView] = useInView({
