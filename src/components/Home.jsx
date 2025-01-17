@@ -1,4 +1,3 @@
-import GirlImage2 from "../assets/girl2.png";
 import Mouse from "../assets/mouse.png";
 import ArrowDown from "../assets/arrow-down.png";
 import PaintBrush from "../assets/paint-brush.png";
@@ -18,8 +17,9 @@ import { Tilt } from "react-tilt";
 import Resume from "../assets/HARSH-BISLA-RESUME 2 (3).pdf";
 import Github from "../assets/github.jpeg";
 import Bootstrap from "../assets/bootstarp.png";
+import youtube from "../assets/you-tube.jpg"
 import ECommerce from "../assets/bg.webp";
-import Spotify from "../assets/spotify.jpeg";
+import Appointment from "../assets/Appointment.png"
 import Weather from "../assets/weather2.webp";
 import TextUtils from "../assets/textutils.png";
 import { Link } from 'react-scroll';
@@ -41,9 +41,9 @@ function Home() {
 
     const Projects = [
         { Name: "E-Commerce Website", Link: "https://online-shopping-e.vercel.app/", Description: "Functional E-Commerce Website", imgSrc: ECommerce },
-        { Name: "Spotify Clone", Link: "http://postifyyy.freewebhostmost.com/", Description: "Spotify Functional Clone", imgSrc: Spotify },
+        { Name: "You Tube Clone", Link: "http://postifyyy.freewebhostmost.com/", Description: "Fully functional clone of youTube", imgSrc: youtube },
         { Name: "Weather App", Link: "https://harsh-bisla.github.io/Weather-App/", Description: "Provides Real Time Weather", imgSrc: Weather },
-        { Name: "Text Utils", Link: "https://harsh-bisla.github.io/TextUtils/", Description: "Manipulate Your Text", imgSrc: TextUtils }
+        { Name: "Appointment Booking Website", Link: "https://harsh-bisla.github.io/TextUtils/", Description: "Book Appointments with doctors", imgSrc: Appointment }
     ];
 
     const [ref, inView] = useInView({
